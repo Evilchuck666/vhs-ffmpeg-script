@@ -68,7 +68,7 @@ Create a JSON file with an **array of absolute paths**:
 ```
 Run:
 ```powershell
-.hs.ps1 -JsonPath "C:\Videos\list.json"
+.\vhs.ps1 -JsonPath "C:\Videos\list.json"
 ```
 The script will iterate the list and process each video.
 
