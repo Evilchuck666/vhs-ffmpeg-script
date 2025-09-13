@@ -54,7 +54,7 @@ The **final output** defaults to: `<<YOUR_VIDEOS_FOLDER>>\<basename>.avi`.
 ### 1) Single file
 ```powershell
 # In PowerShell 7 (pwsh)
-.hs.ps1 -InputPath "C:\Videos\clip.mp4"
+.\vhs.ps1 -InputPath "C:\Videos\clip.mp4"
 ```
 If you omit `-InputPath`, the script will prompt for it (drag‑and‑drop also works in some shells).
 
